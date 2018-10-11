@@ -4,6 +4,7 @@ public class Main
     {
         int alter = 25;
         String vorname = "Axel";
-        System.out.println(String.format("Hello %s! Du bist %d Jahre alt.", vorname, alter));
+        String nachname = "Basset";
+        System.out.println(String.format("Hello %s! Du bist %d Jahre alt. Dein Nachname ist: %s", vorname, alter, nachname));
     }
 }
